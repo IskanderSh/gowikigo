@@ -10,8 +10,8 @@ Wiki written in golang
 ### tmpl <div id="template"></div>
 In this directory stored some templates, for now it is only the simplest HTML. May be in future, it will be CSS too, but I don't like it))
 
-### data <div id="data"></data>
+### data <div id="data"></div>
 In this directory stored all txt files of wiki. So if you will create new txt file, it will be stored here
 
-### main.go
+### main.go <div id="main"></div>
 main.go implements communication in web application
