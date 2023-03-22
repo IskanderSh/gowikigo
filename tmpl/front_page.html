@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/css/nicepage.css" media="screen">
+</head>
+<body>
+    <div>
+        <ul>
+            {{ range . }}
+            <div class="main-titles">
+                <li><a href="/view/{{ .Title }}">{{ .Title }}: {{ .Body }}</a></li>
+            </div>
+            {{ end }}
+        </ul>
+    </div>
+</body>
+</html>
