@@ -37,6 +37,7 @@ func jsonSave(p *Page) {
 	if err != nil {
 		log.Fatal(file)
 	}
+
 	var titles []StringPage
 	err = json.Unmarshal(file, &titles)
 	if err != nil {
